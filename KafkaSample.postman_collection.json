@@ -1,0 +1,76 @@
+{
+	"id": "91b2d4fa-2fc9-f721-595d-fc6ad851e176",
+	"name": "KafkaSample",
+	"description": "",
+	"order": [
+		"9001fa00-4c7e-a33c-403e-65dd33c2afbc",
+		"5894e253-a9e2-5ce2-4850-2b2344bcbf0c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1588713103627,
+	"owner": "7693402",
+	"public": false,
+	"requests": [
+		{
+			"id": "5894e253-a9e2-5ce2-4850-2b2344bcbf0c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8082/backoffice/submit",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1588772870599,
+			"name": "BackofficeUser",
+			"description": "",
+			"collectionId": "91b2d4fa-2fc9-f721-595d-fc6ad851e176",
+			"responses": [],
+			"rawModeData": "{\n  \"title\": \"mr\",\n  \"firstName\": \"UpdateTestUser1\",\n  \"lastName\": \"TestLast\",\n  \"email\": \"testEmailAddress@gmail.com\",\n  \"password\": \"P@ssw0rd\",\n  \"verifyPassword\": \"P@ssw0rd\",\n  \"telephone\": 123456789,\n  \"mobileNumber\": 9874563210,\n  \"customerType\": \"STOCKIST\",\n  \"drugLicenseNo\": \"654\",\n  \"receiveMarketingMails\": true,\n  \"termsAndConditions\": true,\n  \"addresss\" : [{\n    \"title\": \"mr.\",\n    \"firstName\": \"TestUser\",\n    \"lastName\": \"TestLast\",\n    \"isShippingAddress\": true,\n    \"isDefaultAddress\" : true,\n    \"line1\": \"Address Line 1\",\n    \"line2\": \"Address Line 2\",\n    \"city\" : \"city\",\n    \"town\" : \"town\",\n    \"state\" : \"state\"\n  }]\n}"
+		},
+		{
+			"id": "9001fa00-4c7e-a33c-403e-65dd33c2afbc",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/registration/submit",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1588772790901,
+			"name": "UserRegistration",
+			"description": "",
+			"collectionId": "91b2d4fa-2fc9-f721-595d-fc6ad851e176",
+			"responses": [],
+			"rawModeData": "{\n  \"title\": \"mr\",\n  \"firstName\": \"TestUser1\",\n  \"lastName\": \"TestLast\",\n  \"email\": \"testEmailAddress@gmail.com\",\n  \"password\": \"P@ssw0rd\",\n  \"verifyPassword\": \"P@ssw0rd\",\n  \"telephone\": 123456789,\n  \"mobileNumber\": 9874563210,\n  \"customerType\": \"STOCKIST\",\n  \"drugLicenseNo\": \"654\",\n  \"receiveMarketingMails\": true,\n  \"termsAndConditions\": true,\n  \"addresss\" : [{\n    \"title\": \"mr.\",\n    \"firstName\": \"TestUser\",\n    \"lastName\": \"TestLast\",\n    \"isShippingAddress\": true,\n    \"isDefaultAddress\" : true,\n    \"line1\": \"Address Line 1\",\n    \"line2\": \"Address Line 2\",\n    \"city\" : \"city\",\n    \"town\" : \"town\",\n    \"state\" : \"state\"\n  }]\n}"
+		}
+	]
+}
