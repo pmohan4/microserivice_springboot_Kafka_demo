@@ -13,6 +13,6 @@ run command "mvn spring-boot:run" to run registration service
 Steps to running backoffice micro service
 go to backoffice folder
 run command "mvn clean insatll" to build the service
-run command "mvn spring-boot:run" to run registration service
+run command "mvn spring-boot:run" to run backoffice service
 
 
