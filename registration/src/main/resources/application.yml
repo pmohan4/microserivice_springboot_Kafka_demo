@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /registration
+  port: 8081
+
+spring:
+  profiles:
+    active: local

@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: ${spring.embedded.kafka.brokers}
+      auto-offset-reset: earliest
+    producer:
+      bootstrap-servers: ${spring.embedded.kafka.brokers}
+    template:
+      default-topic: userRegistration

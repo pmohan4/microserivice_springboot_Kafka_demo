@@ -1,0 +1,26 @@
+{
+  "title": "mr",
+  "firstName": "TestUser",
+  "lastName": "TestLast",
+  "email": "testEmailAddress@gmail.com",
+  "password": "P@ssw0rd",
+  "verifyPassword": "P@ssw0rd",
+  "telephone": 123456789,
+  "mobileNumber": 9874563210,
+  "customerType": "STOCKIST",
+  "drugLicenseNo": "654",
+  "receiveMarketingMails": true,
+  "termsAndConditions": true,
+  "addresss" : [{
+    "title": "mr.",
+    "firstName": "TestUser",
+    "lastName": "TestLast",
+    "isShippingAddress": true,
+    "isDefaultAddress" : true,
+    "line1": "Address Line 1",
+    "line2": "Address Line 2",
+    "city" : "city",
+    "town" : "town",
+    "state" : "state"
+  }]
+}
