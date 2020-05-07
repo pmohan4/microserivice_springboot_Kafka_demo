@@ -15,5 +15,5 @@
 - run command "mvn clean insatll" to build the service
 - run command "mvn spring-boot:run" to run backoffice service
 
-## Test using postman
+## Testing
 - Import postman json collection into postman for testing
